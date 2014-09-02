@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Quiz: Thais e Luiz</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="about.html"><button class="navbar-toggle collapsed">
+                        Sobre
+                    </button></a>
+                    <a class="navbar-brand">Quiz: Thais e Luiz</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="text-center">
+            <img id="photo" src="../img/thais_luiz_1.jpg" width="250" heigh="250"/>
+        </div>
+
+        <h4 style="margin-left: 5px;">Esta quase na hora do casório faltam:</h4>
+
+        <span id="countdown"></span>
+
+        <h4 style="margin-left: 5px;">E ai ! Sera que você realmente conhece esse casal ?</h4>
+
+        <div class="text-center">
+            <a href="quiz.html"><button class="btn btn-default btn-primary btn-lg">Começar o Quiz</button></a>
+            <a href="ranking.html"><button class="btn btn-default btn-lg">Ranking</button></a>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script>
+
+            $('#photo').attr("src",get_photo_url());
+
+            // set the date we're counting down to
+            var target_date = new Date("Sep 27, 2014").getTime();
+
+            // variables for time units
+            var days, hours, minutes, seconds;
+
+            // update the tag with id "countdown" every 1 second
+            setInterval(function () {
+                // find the amount of "seconds" between now and target
+                var current_date = new Date().getTime();
+                var seconds_left = (target_date - current_date) / 1000;
+
+                // do some time calculations
+                days = parseInt(seconds_left / 86400);
+                seconds_left = seconds_left % 86400;
+
+                hours = parseInt(seconds_left / 3600);
+                seconds_left = seconds_left % 3600;
+
+                minutes = parseInt(seconds_left / 60);
+                seconds = parseInt(seconds_left % 60);
+                if (days > 0) {
+                    // format countdown string + set tag value
+                    $('#countdown').html( days + " dias " + hours + " horas "
+                                                 + minutes + " minutos " + seconds + " seg");
+                } else {
+                    $('#countdown').html("Chegou o dia, parabéns ao casal !");
+                }
+            }, 1000);
+        </script>
+
+    </body>
+</html>

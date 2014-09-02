@@ -2,7 +2,8 @@
 <widget id="br.com.raulfortes.quizthaiseluiz" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Thais e Luiz</name>
     <description>
-        Quiz sobre Thais e Luiz
+        Quiz sobre Thais e Luiz, um casal muito gente boa que ira se casar daqui a pouco.
+        Prepare-se para o casamento e mostre o quanto você sonhece o casal.
     </description>
     <author email="raulfortes@gmail.com" href="http://www.raulfortes.com.br">
         Raul Fortes

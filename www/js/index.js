@@ -75,7 +75,7 @@ function randomIntFromInterval(min,max) {
 }
 
 function get_photo_url() {
-    return "../img/thais_luiz_"+randomIntFromInterval(1,26)+".jpg";
+    return "img/thais_luiz_"+randomIntFromInterval(1,26)+".jpg";
 }
 
 function init (){
@@ -172,15 +172,15 @@ function show_result(){
 
     if ( x < 10) {
         // pior
-        result_photo = '../img/horror.jpg';
+        result_photo = 'img/horror.jpg';
         result_phrase = 'Que horror, só quer saber da festa neh !?';
     } else if (x < 50) {
         // medio
-        result_photo = '../img/precisa-estudar-mais.jpg';
+        result_photo = 'img/precisa-estudar-mais.jpg';
         result_phrase = 'Na Média, precisa estudar mais !';
     } else {
         // sucesso
-        result_photo = '../img/pronto-casamento.jpg';
+        result_photo = 'img/pronto-casamento.jpg';
         result_phrase = 'Parabéns ! Você realmente conhece o casal.';
     }
 

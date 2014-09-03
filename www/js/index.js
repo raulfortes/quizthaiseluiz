@@ -15,18 +15,18 @@ var questions =
         "correct" : "a"
     },
      {
-        "question" : "Qual a cidade do casal ?",
+        "question" : "Qual a cidade que o casal ira morar ?",
         "answers" : {
             "a" : "São Paulo",
-            "b" : "Vinhedo",
+            "b" : "Jacareí",
             "c" : "Santos",
             "d" : "Limeira",
             "e" : "São José dos Campos"
         },
-        "correct" : "e"
+        "correct" : "b"
     },
      {
-        "question" : "Qual o time do casal ?",
+        "question" : "Qual o time de futebol do casal ?",
         "answers" : {
             "a" : "São Paulo",
             "b" : "Palmeiras",
@@ -35,7 +35,196 @@ var questions =
             "e" : "Flamengo"
         },
         "correct" : "d"
-    }];
+    },
+     {
+        "question" : "Onde foi o primeiro beijo ?",
+        "answers" : {
+            "a" : "Show da Ivete Sangalo",
+            "b" : "Bar Funil",
+            "c" : "No carro",
+            "d" : "Pagodão de domingo",
+            "e" : "Atras do poste"
+        },
+        "correct" : "a"
+    },
+     {
+        "question" : "Qual o carro dos sonhos dele ?",
+        "answers" : {
+            "a" : "Nissan",
+            "b" : "Ferrari",
+            "c" : "Fusca",
+            "d" : "Harley Davidson",
+            "e" : "Mercedes (AMG)"
+        },
+        "correct" : "e"
+    },
+     {
+        "question" : "Ao visita-los o que devo levar ?",
+        "answers" : {
+            "a" : "Bebidas",
+            "b" : "Presentes",
+            "c" : "Flores",
+            "d" : "Musica",
+            "e" : "Nada"
+        },
+        "correct" : "a"
+    },
+     {
+        "question" : "Quem é o mais romantico ?",
+        "answers" : {
+            "a" : "Thais",
+            "b" : "Luiz",
+            "c" : "os dois são iguais",
+            "d" : "o Carteiro",
+            "e" : "Ninguém"
+        },
+        "correct" : "a"
+    },
+     {
+        "question" : "Quem mandou o outro a merda primeiro ?",
+        "answers" : {
+            "a" : "Thais",
+            "b" : "Luiz",
+            "c" : "a Sogra",
+            "d" : "o Sogro",
+            "e" : "ainda não aconteceu"
+        },
+        "correct" : "b"
+    },
+     {
+        "question" : "Qual foi o primeiro a falar sobre casamento ?",
+        "answers" : {
+            "a" : "Thais",
+            "b" : "Luiz",
+            "c" : "a Sogra",
+            "d" : "o Sogro",
+            "e" : "os amigos"
+        },
+        "correct" : "a"
+    },
+     {
+        "question" : "Onde foi o primeiro encontro ?",
+        "answers" : {
+            "a" : "No trabalho",
+            "b" : "Na rua",
+            "c" : "No bar",
+            "d" : "Na faculdade",
+            "e" : "Na academia"
+        },
+        "correct" : "d"
+    },
+     {
+        "question" : "Qual a maior loucura que fizeram juntos ?",
+        "answers" : {
+            "a" : "Viajar",
+            "b" : "Casar",
+            "c" : "Terminar o namoro",
+            "d" : "Perder um churrasco",
+            "e" : "Deixar a cerveja esquentar"
+        },
+        "correct" : "c"
+    },
+     {
+        "question" : "Há quanto tempo, estão juntos ?",
+        "answers" : {
+            "a" : "3 anos",
+            "b" : "5 anos",
+            "c" : "7 anos",
+            "d" : "9 anos",
+            "e" : "a muito tempo"
+        },
+        "correct" : "d"
+    },
+     {
+        "question" : "Quem é o mais teimoso ?",
+        "answers" : {
+            "a" : "Thais",
+            "b" : "Luiz",
+            "c" : "a Porta",
+            "d" : "o Cobrador",
+            "e" : "os dois"
+        },
+        "correct" : "b"
+    },
+     {
+        "question" : "Qual a data de aniversário de namoro ?",
+        "answers" : {
+            "a" : "07 - 05 - 2000",
+            "b" : "07 - 03 - 2005",
+            "c" : "04 - 07 - 2005",
+            "d" : "30 - 11 - 2005",
+            "e" : "não tem"
+        },
+        "correct" : "e"
+    },
+     {
+        "question" : "Qual a comida preferida da Thais ?",
+        "answers" : {
+            "a" : "Dobradinha",
+            "b" : "Feijoada",
+            "c" : "Alguma coisa com creme de milho",
+            "d" : "Tudo menos creme de milho",
+            "e" : "Salada"
+        },
+        "correct" : "c"
+    },
+     {
+        "question" : "Qual a comida preferida da Thais ?",
+        "answers" : {
+            "a" : "Dobradinha",
+            "b" : "Feijoada",
+            "c" : "Alguma coisa com creme de milho",
+            "d" : "Tudo menos creme de milho",
+            "e" : "Salada"
+        },
+        "correct" : "b"
+    },
+     {
+        "question" : "Qual é a história mais engraçada do casal ?",
+        "answers" : {
+            "a" : "Aniversario da Tia",
+            "b" : "Corrida pelo parque",
+            "c" : "Pediram informação",
+            "d" : "Bebados estragaram o jardim da D. Edna",
+            "e" : "não tem"
+        },
+        "correct" : "d"
+    },
+     {
+        "question" : "Quem ronca mais ?",
+        "answers" : {
+            "a" : "Thais",
+            "b" : "Luiz",
+            "c" : "o Vizinho",
+            "d" : "o Sogro",
+            "e" : "não sabem"
+        },
+        "correct" : "b"
+    },
+     {
+        "question" : "Qual a viagem dos sonhos ?",
+        "answers" : {
+            "a" : "Praia Grande",
+            "b" : "Hawai",
+            "c" : "Russia",
+            "d" : "República Tcheca",
+            "e" : "Haiti"
+        },
+        "correct" : "d"
+    },
+     {
+        "question" : "Qual a data do casamento ?",
+        "answers" : {
+            "a" : "20 - 08 - 2014",
+            "b" : "20 - 10 - 2014",
+            "c" : "27 - 09 - 2014",
+            "d" : "27 - 09 - 2015",
+            "e" : "já foi"
+        },
+        "correct" : "c"
+    }
+     ];
+
 
 var phrases_success = [
     "A próxima será mais difícil !",

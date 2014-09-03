@@ -169,7 +169,7 @@ var questions =
         "correct" : "c"
     },
      {
-        "question" : "Qual a comida preferida da Thais ?",
+        "question" : "Qual a comida preferida do Luiz ?",
         "answers" : {
             "a" : "Dobradinha",
             "b" : "Feijoada",
